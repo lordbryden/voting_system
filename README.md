@@ -43,3 +43,8 @@ TCAcademy, a training institution, wants to run elections for their student body
     ```bash
     php artisan serve
     ```
+
+7. Use the seeders to insert elements if needed
+    Post seeder to insert the various post
+    Candidate seeder to insert the candidates
+    Admin seeder to insert the admin (default admin@gmail.com   password : "password")

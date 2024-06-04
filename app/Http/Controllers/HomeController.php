@@ -72,7 +72,7 @@ class HomeController extends Controller
         }
 
         // Get the user data (assuming you have a User model associated with the email)
-        $user = Auth::user();
+        // $user = Auth::user();
 
         // Send email to the user
         Mail::to($email)->send(new VotePlaced($email, $votes));
